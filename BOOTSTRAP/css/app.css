@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+#redes li{ margin-bottom:100px;}
+#sociales{ margin-bottom:5px;}
+
+body{ background-color:grey;}
+.apellido, .anio, .cancion,.pais,.album,.grupos,.top,.letras,.acordes{
+	border:solid #FFF;
+	border-radius: 2px 2px 2px 2px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+	
+	}
+	
+	
+	.navbar-default .navbar-nav> li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #FFFF00;
+    color: #FFC0CB;
+	
+}
+.media-list a {
+	color:white;
+	
+	}
+	.media-list a:hover{
+		
+	background-color: #FFFF00;
+	
+    color: #FFC0CB;
+		}
+		.navbar-btn a:hover{
+		background-color:rgb(0,0,0.0.5);
+			
+						}
+
+		

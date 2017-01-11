@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+header nav ul li {
+	margin:0;
+	padding:0;
+	border:1px solid;
+	border-radius:6px;
+	margin-right:5px;
+	padding-top:2px;
+	margin-top:5px;	
+	background-color:#CCC;
+	
+	}
+	header nav img {margin-top:5px;
+	margin-left:5px;}
+	
+	header .card-title{
+		margin-top:50px;
+		margin-left:550px;
+		color:#F0F;
+		font-family:"Comic Sans MS", cursive
+		font-size:36px;}
+		
+    @media only screen and (max-width : 992px) {
+      header {
+      display:inline-block;
+      }
+	  header nav img { text-align:left;}
+    }
+		
+	.social {position:fixed;
+	left:0;
+	top:200px;
+	z-index:2000;}	
+		
